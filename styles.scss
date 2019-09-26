@@ -1,0 +1,103 @@
+html{
+  div,a,ul,li,p,nav{
+    box-sizing: border-box;
+  }
+}
+
+
+body {
+  background-color: #ffffff;
+  margin: 0;
+
+  .navigation{
+    background-color: #000000;
+    margin: 0;
+    position: fixed;
+    z-index: 99;
+  width:100%;
+
+    .nav-elem{
+      display: inline-block;
+      margin: 5px 10px;
+
+      a{
+        padding: 10px 30px;
+        display: block;
+        background-color: #000000;
+        font-family: sans-serif;
+        color: #ffffff;
+        text-decoration: none;
+
+        
+
+        &:hover{
+          background-color: #244744;
+          box-shadow: #6d60a3 0px 0px 5px 2px, #fdb313 0px 0px 10px 5px ;
+          color: #000000;
+          transition: 500ms;
+
+        }
+      }
+    }
+
+
+  }
+
+  main{
+
+    width:100%;
+    .content-container{
+      width: 100vw;
+      height: 100vh;
+      position: relative;
+      display: block;
+    }
+    .about{
+      // background-color: #000000;
+
+    .content-wrapper {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-gap: 20px;
+
+      .container{
+        width:100%;
+        min-height: 500px;
+ 
+      }
+
+      .photo{
+        background: #000000 url("images/bao.jpg") center no-repeat;
+        background-size: cover;
+      }
+    }
+    }
+.contact{
+  background-color: #413f3f;
+  color:#ffffff;
+  position: relative;
+  .icon-container{
+    display:grid;
+    position: relative;
+    grid-template-columns: 1fr 1fr;
+    font-size: 200px;
+    text-align: center;
+    a{ 
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+
+    
+    i {
+      position: relative;
+      line-height: 100vh;
+    }
+  }
+}
+}
+  }
+
+}
+
+
+
